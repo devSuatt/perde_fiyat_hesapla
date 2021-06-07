@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TACNUR PERDE - Fiyat Hesaplama</title>
+</head>
+
+<body>
+    <br>
+    <h5 class="text-center red"> Eklemek istediğiniz perde türünü giriniz </h5>
+    <div class="container mt-2 ortala">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10" id="perdeler">
+
+            </div>
+            <div class="col-1"></div>
+
+        </div>
+        <div class="container">
+            <div style="font-size: smaller;" class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 mt-3"> <br>
+                    <label for="tul-button">Tül Perde</label>
+                    <button class="plus-button ortala" id="tul-button"> <i class="fas fa-plus"></i> </button>
+                </div>
+                <div class="col-md-2 mt-3"> <br>
+                    <label for="fon-button">Fon Perde</label>
+                    <button class="plus-button ortala" id="fon-button"> <i class="fas fa-plus"></i> </button>
+                </div>
+                <div class="col-md-2 mt-3"> <br>
+                    <label for="guneslik-button">Güneşlik</label>
+                    <button class="plus-button ortala" id="guneslik-button"> <i class="fas fa-plus"></i> </button>
+                </div>
+                <div class="col-md-2 mt-3"> <br>
+                    <label for="stor-button">Stor / Zebra</label>
+                    <button class="plus-button ortala" id="stor-button"> <i class="fas fa-plus"></i> </button>
+                </div>
+                <div class="col-md-3 mt-3"> <br>
+                    <label for="equal-button">TOPLAM HESAPLA</label>
+                    <button class="equals-button ortala" id="equal-button"> <i class="fas fa-equals"></i> </button>
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+
+        <!-- RESULTS -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-10">
+                        <p style="font-weight: bold; margin-right: 0rem" class="text-center">Fiyatlar </p>
+                    </div>
+                    <div class="col-2">
+                        <span style="margin-right: 1rem" class="close">&times;</span>
+                    </div>
+                </div>
+                <p id="perdeSonuc"></p>
+                <p style="font-weight: bold; font-size: larger;" id="toplam"></p>
+            </div>
+
+        </div>
+
+
+        <script>
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+        <script src="js/script.js"></script>
+</body>
+
+</html>
